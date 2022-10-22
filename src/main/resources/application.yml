@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-boot-mongo
+  data:
+    mongodb:
+      uri: "mongodb://ADMIN:ADMIN@localhost:27017"
+      database: "mongo_db"
+
+logging:
+  level:
+    nl:
+      georg: DEBUG
+
+server:
+  port: 8080
+  error:
+    include-message: always
